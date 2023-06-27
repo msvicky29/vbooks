@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+#my-logo{
+    width: 170px;
+    border-radius: 12px;
+}
+.home{
+    margin-top: 7rem;
+}
+.title{
+    font-size: 50px;
+}
+@media(max-width:769px){
+    .title{
+        font-size: 42px;
+    }
+}
+
+
+.box{
+    width: 17rem;
+    min-height: 12rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: auto;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-radius: 15px;
+}
+.myhover, .material-btn{
+    display:block;
+    transition: .3s all;
+    font-size: 20px;
+}
+.myhover:hover{
+    border: 1px solid #198754;
+    color: #198754;
+    background-color: #fff;
+}
+.material-btn:hover{
+    border: 1px solid blue;
+    color: blue;
+    background-color: #fff;
+
+}
+
+.my-margin
+{
+    margin-top:3rem;
+}
+#footer{
+    background-color: aliceblue;
+}
+.social li{
+    list-style: none;
+}
+.social li a, .services{
+    font-size: 20px;
+    text-decoration: none;
+}
